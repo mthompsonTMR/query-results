@@ -1,0 +1,47 @@
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+ id | name  | price | can_be_returned 
+----+-------+-------+-----------------
+  1 | chair |    44 | f
+  2 | stool | 25.99 | t
+  3 | table |   124 | f
+(3 rows)
+
+ name  
+-------
+ chair
+ stool
+ table
+(3 rows)
+
+ name  | price 
+-------+-------
+ chair |    44
+ stool | 25.99
+ table |   124
+(3 rows)
+
+INSERT 0 1
+ id |   name    | price | can_be_returned 
+----+-----------+-------+-----------------
+  2 | stool     | 25.99 | t
+  4 | bookshelf |    75 | t
+(2 rows)
+
+ id | name  | price | can_be_returned 
+----+-------+-------+-----------------
+  2 | stool | 25.99 | t
+(1 row)
+
+ id |   name    | price | can_be_returned 
+----+-----------+-------+-----------------
+  1 | chair     |    44 | f
+  2 | stool     | 25.99 | t
+  4 | bookshelf |    75 | t
+(3 rows)
+
+UPDATE 4
+DELETE 2
+UPDATE 2
+UPDATE 2
